@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 
-export const LoginWrapper = styled.div`
+export const FlowWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

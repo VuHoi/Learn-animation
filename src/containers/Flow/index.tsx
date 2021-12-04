@@ -1,8 +1,8 @@
 import React from 'react';
 import Template from './template';
 
-function LoginContainer() {
+function FlowContainer() {
   return <Template />;
 }
 
-export default LoginContainer;
+export default FlowContainer;

@@ -1,11 +1,10 @@
 import React from 'react';
 
-import 'App.css';
-import { LoginWrapper, Loader, Child } from './styles';
+import { FlowWrapper, Loader, Child } from './styles';
 
-function LoginTemplate() {
+function Template() {
   return (
-    <LoginWrapper>
+    <FlowWrapper>
       <Loader width={500} height={500}>
         {Array(25)
           .fill(0)
@@ -13,8 +12,8 @@ function LoginTemplate() {
             <Child index={index} />
           ))}
       </Loader>
-    </LoginWrapper>
+    </FlowWrapper>
   );
 }
 
-export default LoginTemplate;
+export default Template;
