@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { FlowWrapper, Loader, Child } from './styles';
+import { FlowWrapper, Loader, Child } from "./styles";
 
 function Template() {
   return (
